@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar Pedido</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Realizar Pedido</h1>
+        <form id="pedidoForm">
+            <label for="product_id">Código de Producto:</label>
+            <input type="text" id="product_id" name="product_id" disabled>
+            <label for="product_name">Nombre del Producto:</label>
+            <input type="text" id="product_name" name="product_name" disabled>
+            <label for="proveedores">Proveedor:</label>
+            <select id="proveedores" name="proveedores">
+                <!-- Opciones para proveedores -->
+            </select>
+            <label for="quantity">Cantidad:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            <span id="cantidadError" class="error"></span>
+            <button type="submit" id="confirmOrderBtn">Confirmar Pedido</button>
+        </form>
+    </div>
+
+    <script src="RealizarPedidos.js"></script>
+</body>
+</html>

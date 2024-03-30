@@ -1,0 +1,21 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "El programa pide un manejo de inventario para un supermercado. Va a tener la capacidad de manejar personal, inventario y pedidos. Se va a comunicar con una base de datos para almacenar y administrar información.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^29.1.6"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "mousetrap": "^1.6.5",
+    "mysql2": "^3.9.3",
+    "sequelize": "^6.37.2"
+  }
+}

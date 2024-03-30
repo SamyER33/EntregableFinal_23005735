@@ -1,0 +1,107 @@
+
+{
+    "productos": [
+      { 
+        "id": 1,
+        "nombre": "Leche",
+        "descripcion": "Leche entera",
+        "existencia": 100,
+        "id_proveedor": 1,
+        "id_categoria": 1
+      },
+      {
+        "id": 2,
+        "nombre": "Arroz",
+        "descripcion": "Arroz blanco",
+        "existencia": 50,
+        "id_proveedor": 2,
+        "id_categoria": 2
+      },
+      {
+        "id": 3,
+        "nombre": "Manzanas",
+        "descripcion": "Manzanas rojas",
+        "existencia": 80,
+        "id_proveedor": 3,
+        "id_categoria": 3
+      },
+      {
+        "id": 4,
+        "nombre": "Pollo",
+        "descripcion": "Pollo fresco",
+        "existencia": 40,
+        "id_proveedor": 4,
+        "id_categoria": 4
+      },
+      {
+        "id": 5,
+        "nombre": "Pasta",
+        "descripcion": "Pasta de trigo",
+        "existencia": 60,
+        "id_proveedor": 5,
+        "id_categoria": 5
+      }
+    ],
+    "proveedores": [
+      {
+        "id": 1,
+        "nombre": "Lácteos S.A.",
+        "direccion": "123 Calle Principal",
+        "telefono": "555-1234",
+        "email": "info@lacteos.com"
+      },
+      {
+        "id": 2,
+        "nombre": "Agricultores Unidos",
+        "direccion": "456 Avenida Central",
+        "telefono": "555-5678",
+        "email": "info@agricultores.com"
+      },
+      {
+        "id": 3,
+        "nombre": "Frutas Frescas",
+        "direccion": "789 Calle Secundaria",
+        "telefono": "555-9101",
+        "email": "info@frutas.com"
+      },
+      {
+        "id": 4,
+        "nombre": "Granjas Avícolas",
+        "direccion": "012 Avenida Norte",
+        "telefono": "555-1122",
+        "email": "info@granjas.com"
+      },
+      {
+        "id": 5,
+        "nombre": "Pastificio Italiano",
+        "direccion": "345 Calle Italia",
+        "telefono": "555-3344",
+        "email": "info@pastas.com"
+      }
+    ],
+    "empleados": [
+      {
+        "id": 1,
+        "nombre": "Juan Perez",
+        "cargo": "Vendedor",
+        "email": "juan@empresa.com",
+        "contrasena": "123456"
+      },
+      {
+        "id": 2,
+        "nombre": "Maria Lopez",
+        "cargo": "Gerente",
+        "email": "maria@empresa.com",
+        "contrasena": "password123"
+      },
+      {
+        "id": 3,
+        "nombre": "Pedro Ramirez",
+        "cargo": "Almacenero",
+        "email": "pedro@empresa.com",
+        "contrasena": "password456"
+      }
+    ],
+    "pedidos": []
+  }
+  

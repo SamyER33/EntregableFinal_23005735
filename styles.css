@@ -1,0 +1,176 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select,
+.select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button,
+button[type="submit"],
+.edit-btn,
+.order-btn,
+.reset-btn,
+.save-btn,
+#confirmBtn,
+#editBtn,
+#orderBtn,
+#loginBtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button#confirmBtn,
+button#editBtn,
+button#orderBtn,
+.save-btn,
+#confirmPedidoBtn,
+#editarBtn,
+#hacerPedidoBtn,
+#iniciarSesionBtn,
+#loginBtn {
+    background-color: #0040ff;
+}
+
+button#cancelBtn,
+.reset-btn {
+    background-color: #dc3545;
+}
+
+button:hover,
+button[type="submit"]:hover,
+.edit-btn:hover,
+.order-btn:hover,
+.reset-btn:hover,
+.save-btn:hover,
+#confirmBtn:hover,
+#editBtn:hover,
+#orderBtn:hover,
+#confirmPedidoBtn:hover,
+#editarBtn:hover,
+#hacerPedidoBtn:hover,
+#iniciarSesionBtn,
+#loginBtn:hover {
+    background-color: #28a745; /* Color al pasar el cursor */
+}
+
+button:active,
+button[type="submit"]:active,
+.edit-btn:active,
+.order-btn:active,
+.reset-btn:active,
+.save-btn:active,
+#confirmBtn:active,
+#editBtn:active,
+#orderBtn:active,
+#confirmPedidoBtn:hover,
+#editarBtn:hover,
+#hacerPedidoBtn:hover,
+#iniciarSesionBtn,
+#loginBtn:hover {
+    background-color: #ff00cc; /* Color al hacer clic */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.pedido-pendiente {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: 1px solid #ff0000;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.info {
+    text-align: center;
+}
+
+#productTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#productTable th,
+#productTable td {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#productTable th {
+    background-color: #f2f2f2;
+}
+
+#confirmationDetails {
+    margin-bottom: 20px;
+}
